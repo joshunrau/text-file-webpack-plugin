@@ -1,0 +1,40 @@
+{
+  "name": "text-file-webpack-plugin",
+  "version": "1.0.0",
+  "description": "Create a new text file in your webpack build directory",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "lint": "eslint --fix --ext .ts src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshunrau/text-file-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack"
+  ],
+  "author": "Joshua Unrau",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshunrau/text-file-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/joshunrau/text-file-webpack-plugin#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.39.0",
+    "@typescript-eslint/parser": "^5.39.0",
+    "eslint": "^8.25.0",
+    "typescript": "^4.8.4",
+    "webpack": "^5.74.0"
+  },
+  "peerDependencies": {
+    "webpack": "^5.20.0"
+  },
+  "files": [
+    "dist/",
+    "LICENSE",
+    "README.md",
+    "package.json"
+  ]
+}

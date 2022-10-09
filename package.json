@@ -1,6 +1,6 @@
 {
   "name": "text-file-webpack-plugin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Create a new text file in your webpack build directory",
   "main": "./dist/index.js",
   "types": "./dist/index.d.ts",

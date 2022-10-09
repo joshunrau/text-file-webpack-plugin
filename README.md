@@ -2,6 +2,10 @@
 
 A very simple webpack plugin for injecting a new file into your build directory. 
 
+## Install
+
+    npm i --save-dev text-file-webpack-plugin
+
 ## Usage
 
 **webpack.config.js**

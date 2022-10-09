@@ -13,7 +13,8 @@
     "url": "git+https://github.com/joshunrau/text-file-webpack-plugin.git"
   },
   "keywords": [
-    "webpack"
+    "webpack",
+    "webpack-plugin"
   ],
   "author": "Joshua Unrau",
   "license": "MIT",

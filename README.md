@@ -22,7 +22,7 @@ A very simple webpack plugin for injecting a new file into your build directory.
       plugins: [
         new TextFileWebpackPlugin({
           filename: 'CNAME',
-          text: 'google.com'
+          text: 'yourwebsite.com'
         })
       ]
     };

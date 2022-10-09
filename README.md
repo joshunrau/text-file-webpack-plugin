@@ -21,8 +21,8 @@ A very simple webpack plugin for injecting a new file into your build directory.
       },
       plugins: [
         new TextFileWebpackPlugin({
-          filename: 'hello.txt',
-          text: 'hello, world'
+          filename: 'CNAME',
+          text: 'google.com'
         })
       ]
     };

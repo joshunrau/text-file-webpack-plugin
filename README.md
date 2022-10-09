@@ -1,1 +1,24 @@
 # text-file-webpack-plugin
+
+A very simple webpack plugin for injecting a new file into your build directory. 
+
+## Usage
+
+**webpack.config.js**
+
+    const path = require('path');
+    const TextFileWebpackPlugin = require('text-file-webpack-plugin');
+
+    module.exports = {
+      entry: './index.js',
+      output: {
+        path: path.resolve(__dirname, 'dist'),
+        filename: '[name].bundle.js',
+      },
+      plugins: [
+        new TextFileWebpackPlugin({
+          filename: 'hello.txt',
+          text: 'hello, world'
+        })
+      ]
+    };
